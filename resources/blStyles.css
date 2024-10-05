@@ -1,0 +1,45 @@
+body {
+    background-color: #7BAAF7;
+    color: black;
+}
+
+.goldh {
+    text-decoration: none;
+    color: #0056b3;
+}
+
+.sright {
+    padding-left: 200px;
+}
+
+@media (max-width: 768px) {
+    .sright {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .sright {
+        padding-left: 10px;
+    }
+
+    header, footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h2 {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .sright ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .sright ul li {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,14 @@
+body {
+    background-color: #696b5e;
+}
+.contain {
+    height: 100vh; /* Full viewport height */
+    display: grid; /* Enable grid layout */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.bhh {
+    /* Any specific styles for your heading can go here */
+    text-align: center; /* Center text if needed */
+}
