@@ -23,3 +23,16 @@ body {
   transform: scale(1.05);
   transition: all 0.3s ease;
 }
+.text-image-container {
+  display: flex; /* Aligns the image and text side by side */
+  align-items: center; /* Vertically centers the image and text */
+}
+.text {
+  padding-left: 55px;
+}
+.last {
+  padding-left: 60px;
+}
+.pic {
+  padding-right: 100px;
+}
