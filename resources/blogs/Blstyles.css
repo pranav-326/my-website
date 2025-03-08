@@ -5,13 +5,16 @@ body {
     color: #FFFFFF;
 }
 .bheading {
+    font-family: "Nunito", sans-serif;
     padding-left: 200px;
     color: black;
 }
 .text {
-    font-size: 50px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 15px;
     color: #212529;
-    font: normal 400 15px Lora, serif;
     line-height: 1.7;
     padding-left: 200px;
     padding-right: 150px;
