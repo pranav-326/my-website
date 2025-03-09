@@ -38,5 +38,12 @@ body {
 }
 @media (min-width:320px)  {
 #mypic {
-
+  display: none;
+}
+.last {
+  display: none;
+}
+.text {
+  padding-left: 1%;
+}
 }
