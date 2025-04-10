@@ -1,8 +1,14 @@
 body {
-    background-color: #7BAAF7;
+    background-color: #e5e5e5;
+}
+.custom-header-border {
+    border-bottom: 0.5px solid #1b263b !important;
 }
 .border-bottom {
-    color: #FFFFFF;
+    color: #1b263b;
+}
+.custom-border {
+    border-top: 1px solid #1b263b !important;
 }
 .bheading {
     font-family: "Nunito", sans-serif;

@@ -3,7 +3,8 @@ body {
     color: brown;
 }
 .great-vibes-regular {
-    padding-left: 200px;
+    padding-left: 125px;
+    padding-right: 25px;
     font-family: "Great Vibes", cursive;
     font-weight: 400;
     font-style: normal;

@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-    background-color: #8CA0B1;
+    background-color: #e0e1dd;
 }
 #mypic {
   display: flex;
@@ -11,21 +11,27 @@ body {
   min-height: 100vh;
 }
 .text {
-    color: #24344D;
+    color: #1b263b;
 }
 .card-cover {
   aspect-ratio: 1/1;
 }
+.custom-border {
+  border-top: 1px solid #1b263b !important;
+}
 .no-underline {
   text-decoration: none;
+}
+.custom-header-border {
+  border-bottom: 1px solid #1b263b !important; 
 }
 .card:hover {
   transform: scale(1.05);
   transition: all 0.3s ease;
 }
 .text-image-container {
-  display: flex; /* Aligns the image and text side by side */
-  align-items: center; /* Vertically centers the image and text */
+  display: flex; 
+  align-items: center; 
 }
 .text {
   padding-left: 55px;
